@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/cream">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <!-- Cute pink header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌸  YOUR LITTLE PANTRY  🌸"
+            android:textColor="@color/pink_dark"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="14dp" />
+
+        <!-- App title -->
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart Pantry\nManager ♡"
+            android:textColor="@color/pink_dark"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="14dp" />
+
+        <!-- Welcome message -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A happy little home for your food! Keep track of your ingredients, reduce waste and stay on top of expiry dates. 💕"
+            android:textColor="@color/text_muted"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="28dp" />
+
+        <!-- Main content card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@color/card_white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What are we doing today? ✨"
+                android:textColor="@color/text_dark"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="20dp" />
+
+
+            <Button
+                android:id="@+id/addItemButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="♡  Add Pantry Item"
+                android:textAllCaps="false"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                android:backgroundTint="@color/pink_light"
+                android:minHeight="58dp"
+                android:layout_marginBottom="14dp" />
+
+            <Button
+                android:id="@+id/viewItemsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="✿  View My Pantry"
+                android:textAllCaps="false"
+                android:textColor="@color/text_dark"
+                android:textSize="16sp"
+                android:backgroundTint="@color/lavender"
+                android:minHeight="58dp" />
+
+            <Button
+                android:id="@+id/recipesButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="🍓 My Recipes"
+                android:textAllCaps="false"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_dark"
+                android:backgroundTint="@color/lavender" />
+
+
+        </LinearLayout>
+
+        <!-- Friendly tip -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌿 Little tip\nCheck your expiry dates regularly to keep your pantry fresh!"
+            android:textColor="@color/sage_dark"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:padding="18dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Made with ♡ for your kitchen"
+            android:textColor="@color/pink_dark"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+</ScrollView>

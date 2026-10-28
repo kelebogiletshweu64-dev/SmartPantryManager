@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Existing colours -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Girly pastel palette -->
+    <color name="pink_primary">#E88BAF</color>
+    <color name="pink_dark">#B94F79</color>
+    <color name="pink_light">#FCE4EC</color>
+    <color name="lavender">#E6D9FA</color>
+    <color name="lavender_dark">#8064A2</color>
+    <color name="cream">#FFF8F0</color>
+    <color name="sage_green">#D8EAD8</color>
+    <color name="sage_dark">#52785B</color>
+    <color name="text_dark">#493744</color>
+    <color name="text_muted">#806F7C</color>
+    <color name="card_white">#FFFFFFFF</color>
+    <color name="warning_pink">#F7B6C8</color>
+</resources>
